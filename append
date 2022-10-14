@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,strt,end;
+	cout<<"enter the starting value";
+	cin>>strt;
+	cout<<"enter the ending value";
+	cin>>end;
+	for(i=strt;i<=end;i++)
+	{ 
+	   cout<<i\t;
+	}
+	return 0;
+}
