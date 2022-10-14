@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,j,M,N,K;
+	cout<<"enter the start value:";
+	cin>>M;
+	cout<<"enter the end value:";
+	cin>>N;
+	cout<<"enter the skkiping number:";
+	cin>>K;
+	for(i=M,j=N;i=<j;i+=K)
+	{
+		cout<<i<<",";
+	}
+}
